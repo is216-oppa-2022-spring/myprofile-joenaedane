@@ -13,6 +13,5 @@ Each week, you need to **update README** and describe the new changes you've imp
 * Added a new webpage for my resume.
 * Applied CSS I learned in class to my web pages.
 
-## (Week 3) something goes here
-* something
-* something
+## (Week 3) Styling
+Added more information regarding myself + Bootstrap components: Card, Jumbotron, List Group and Nav Will work on styling it more and adding dynamic components next week :)
