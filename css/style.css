@@ -1,12 +1,20 @@
- * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
  
  body{
-     background-color: wheat;
+    min-height: 100vh;
+     background: linear-gradient(#2b1055, #7597de)
  }
- h1, h4 {
+
+ h3 {
+    letter-spacing: 2px;
+ }
+
+ h3, h5, p {
     text-align: center;
+    color: whitesmoke;
  }
 
  #imagecropper{
@@ -18,22 +26,10 @@
     margin: auto;
 }
 
- #myface {
-    width: 100%;
-  }
- 
-#biography{
-    border: 2px solid saddlebrown;
-    text-align: center;
-    background-color: bisque;
-}
-
-#video {
-    margin-left: 30px;
-    margin-right:30px;
-    background-color: #777;
-}
-
-iframe{
-    width: 100%;
+.circle {
+    width:10px;
+    height: 10px;
+    border: 1px solid green;
+    position: absolute;
+    border-radius: 15px;
 }
